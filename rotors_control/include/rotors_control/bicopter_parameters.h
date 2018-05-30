@@ -4,11 +4,11 @@
 namespace rotors_control {
 // Default values for the Asctec Firefly rotor configuration.
 static constexpr double kDefaultRotor0Angle = 0.0;
-static constexpr double kDefaultRotor1Angle = -2*1.57079632679;
-static constexpr double kDefaultRotor2Angle = 2.61799387799;
-static constexpr double kDefaultRotor3Angle = -2.61799387799;
-static constexpr double kDefaultRotor4Angle = -1.57079632679;
-static constexpr double kDefaultRotor5Angle = -0.52359877559;
+static constexpr double kDefaultRotor1Angle = -3.14159265358;
+//static constexpr double kDefaultRotor2Angle = 2.61799387799;
+//static constexpr double kDefaultRotor3Angle = -2.61799387799;
+//static constexpr double kDefaultRotor4Angle = -1.57079632679;
+//static constexpr double kDefaultRotor5Angle = -0.52359877559;
 
 // Default vehicle parameters for Asctec Firefly.
 static constexpr double kDefaultMass = 1.56779;
@@ -52,18 +52,6 @@ struct RotorConfiguration {
             kDefaultRotorMomentConstant, 1));
     rotors.push_back(
       Rotor(kDefaultRotor1Angle, kDefaultArmLength, kDefaultRotorForceConstant,
-            kDefaultRotorMomentConstant, -1));
-    rotors.push_back(
-      Rotor(kDefaultRotor2Angle, kDefaultArmLength, kDefaultRotorForceConstant,
-            kDefaultRotorMomentConstant, 1));
-    rotors.push_back(
-      Rotor(kDefaultRotor3Angle, kDefaultArmLength, kDefaultRotorForceConstant,
-            kDefaultRotorMomentConstant, -1));
-    rotors.push_back(
-      Rotor(kDefaultRotor4Angle, kDefaultArmLength, kDefaultRotorForceConstant,
-            kDefaultRotorMomentConstant, 1));
-    rotors.push_back(
-      Rotor(kDefaultRotor5Angle, kDefaultArmLength, kDefaultRotorForceConstant,
             kDefaultRotorMomentConstant, -1));
   }
   std::vector<Rotor> rotors;
