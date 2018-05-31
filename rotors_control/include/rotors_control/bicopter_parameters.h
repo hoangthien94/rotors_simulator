@@ -5,13 +5,9 @@ namespace rotors_control {
 // Default values for the Asctec Firefly rotor configuration.
 static constexpr double kDefaultRotor0Angle = 0.0;
 static constexpr double kDefaultRotor1Angle = -3.14159265358;
-//static constexpr double kDefaultRotor2Angle = 2.61799387799;
-//static constexpr double kDefaultRotor3Angle = -2.61799387799;
-//static constexpr double kDefaultRotor4Angle = -1.57079632679;
-//static constexpr double kDefaultRotor5Angle = -0.52359877559;
 
 // Default vehicle parameters for Asctec Firefly.
-static constexpr double kDefaultMass = 1.56779;
+static constexpr double kDefaultMass = 0.56779;
 static constexpr double kDefaultArmLength = 0.15;
 static constexpr double kDefaultInertiaXx = 0.0347563;
 static constexpr double kDefaultInertiaYy = 0.0458929;
