@@ -2,12 +2,12 @@
 #define INCLUDE_ROTORS_CONTROL_PARAMETERS_H_
 
 namespace rotors_control {
-// Default values for the Asctec Firefly rotor configuration.
+// Default values for the Bicopter rotor configuration.
 static constexpr double kDefaultRotor0Angle = 0.0;
 static constexpr double kDefaultRotor1Angle = -3.14159265358;
 
-// Default vehicle parameters for Asctec Firefly.
-static constexpr double kDefaultMass = 0.56779;
+// Default vehicle parameters for Bicopter.
+static constexpr double kDefaultMass = 0.47689;
 static constexpr double kDefaultArmLength = 0.15;
 static constexpr double kDefaultInertiaXx = 0.0347563;
 static constexpr double kDefaultInertiaYy = 0.0458929;
